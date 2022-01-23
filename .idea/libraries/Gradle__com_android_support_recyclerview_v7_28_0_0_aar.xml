@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.support:recyclerview-v7:28.0.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://E:/Omni-Notes-develop/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/5e1b08d7a2e19cd9155344d98cdd34db/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://E:/Omni-Notes-develop/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/5e1b08d7a2e19cd9155344d98cdd34db/jars/classes.jar!/" />
+      <root url="file://E:/Omni-Notes-develop/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/5e1b08d7a2e19cd9155344d98cdd34db/res" />
+      <root url="file://E:/Omni-Notes-develop/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/5e1b08d7a2e19cd9155344d98cdd34db/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

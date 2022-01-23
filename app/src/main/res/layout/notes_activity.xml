@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+NOTEMAKER APP
+Version 2.42
+By Tom-Eliott Herfray
+Student Number : 2999664
+
+March 2019
+-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    android:theme="@style/NotesMainThemes.NoActionBar">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/returnlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:elevation="0dp"
+        app:backgroundTint="@color/colorWhite"
+        app:elevation="0dp"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <TextView
+        android:id="@+id/reminder_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="No Reminder added"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/titleNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="30dp"
+        android:fontFamily="sans-serif-black"
+        android:hint="Title"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/dataNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="2"
+        android:gravity="start|top"
+        android:hint="Enter the Note Here "
+        android:textSize="20dp" />
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/fab_margin"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                app:srcCompat="@drawable/notes_icon_save" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/reminder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/fab_margin"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:tint="#FFFFFF"
+                app:srcCompat="@drawable/ic_twotone_add_alarm_24" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/share"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/fab_margin"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                app:srcCompat="@drawable/notes_icon_share" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/delete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/fab_margin"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                app:srcCompat="@drawable/notes_icon_delete" />
+
+        </LinearLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>

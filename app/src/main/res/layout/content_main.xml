@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+NOTEMAKER APP
+Version 2.42
+By Tom-Eliott Herfray
+Student Number : 2999664
+
+March 2019
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    android:theme="@style/NotesMainThemes.NoActionBar"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:fontFamily="sans-serif-black"
+        android:text="Notes"
+        android:textAlignment="center"
+        android:textSize="42dp" />
+
+    <ListView
+        android:id="@+id/listofnotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:textSize="8dp"
+        android:theme="@style/NotesMainThemes" />
+
+</LinearLayout>

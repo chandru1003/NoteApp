@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.support:documentfile:28.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/a1f626116d073879398ebd4460a9a086/res" />
+      <root url="jar://E:/Omni-Notes-develop/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f17f32d13a342ae4fda147cac391cde0/jars/classes.jar!/" />
+      <root url="file://E:/Omni-Notes-develop/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f17f32d13a342ae4fda147cac391cde0/res" />
+      <root url="file://E:/Omni-Notes-develop/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f17f32d13a342ae4fda147cac391cde0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
