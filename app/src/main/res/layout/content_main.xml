@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!--
-NOTEMAKER APP
-Version 2.42
-By Tom-Eliott Herfray
-Student Number : 2999664
-
-March 2019
--->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
