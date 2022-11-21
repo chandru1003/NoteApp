@@ -23,8 +23,8 @@ the target Android devices.
 - Go to activity_main.xml. This XML file contains the designing code for your Android
 app. The XML code is given in the source code section.
 - Go to Main Activity.java. This Java program is the backend language of the Android
-app. . The Java code is given in the source code section.
--Now, go to the menu bar and click "Make Project" or press ctrl+f9 so as to debug it
+app.The Java code is given in the source code section.
+- Now, go to the menu bar and click "Make Project" or press ctrl+f9 so as to debug it
 from errors.
--Then, click the "Run" button or press shift+f10 to run the project. Choose the
+- Then, click the "Run" button or press shift+f10 to run the project. Choose the
 "virtual machine" option and click OK.
