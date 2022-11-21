@@ -1,6 +1,6 @@
 # NoteApp
 
-## Problem Statement:--
+## Problem Statement:-
 In such busy schedules people need some personal assistant or a reminder
 to remind them about the important work that needs to be done. This android
 application will help them to remind, to do such important things
@@ -11,8 +11,9 @@ hand-held devices.
 
 ## Steps:
 Let us take a look at the steps to build the application. You will require the latest version of the android
-studio for this. The steps are as follows:-
-- pen Android Studio and start a new Android Studio Project.
+studio for this. 
+### The steps are as follows:-
+- Open Android Studio and start a new Android Studio Project.
 - you can choose your application name and choose where your project is stored on
 the location. If you wish to use C++ for coding the project, mark the "Include C++
 support", and click the "Next" button. Now, select the version of Android and select
